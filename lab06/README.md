@@ -11,8 +11,8 @@ O arquivo para gerar a caverna é input_caverna.csv
 * CSV para gerar a caverna disponível [aqui]() ou [aqui]().
 
 #### Destaques do código
-##### 1
-Para cada objeto da classe **Sala** existe um vetor de 5 posições (poderia ser maior) que armazena objetos dos componentes primário ou secundário. Assim, fica fácil de armazenar novos componentes no caso de expansão de novas classes.
+
+**1** Para cada objeto da classe **Sala** existe um vetor de 5 posições (poderia ser maior) que armazena objetos dos componentes primário ou secundário. Assim, fica fácil de armazenar novos componentes no caso de expansão de novas classes. O trecho de código abaixo mostra a declaração desse vetor e o método que faz a inclusão dos componentes secundários.
 ~~~java
 protected Componente componentes[] = new Componente[5];
 public void InsereComponenteSecundario(Componente componenteSecundario) {
