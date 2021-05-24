@@ -6,9 +6,9 @@ java mc322.lab06.AppMundoWumpus input_caverna.csv
 ~~~
 O arquivo para gerar a caverna é input_caverna.csv
 
-* Códigos fontes do Lab06 disponíveis [aqui](https://github.com/eliaskento/mc322a2021s1/tree/main/lab05/src/mc322/lab05a).
-* Códigos fontes do Lab06 disponíveis [aqui](https://github.com/eliaskento/mc322a2021s1/tree/main/lab05/src/mc322/lab05b).
-* CSV para gerar a caverna disponível [aqui]() ou [aqui]().
+* Arquivos .java do Lab06 disponíveis [aqui](https://github.com/eliaskento/mc322a2021s1/tree/main/lab06/src/mc322/lab06).
+* Arquivos .class do Lab06 disponíveis [aqui](https://github.com/eliaskento/mc322a2021s1/tree/main/lab06/bin/mc322/lab06).
+* CSV para gerar a caverna disponível [aqui](https://github.com/eliaskento/mc322a2021s1/tree/main/lab06/data).
 
 #### Destaques do código
 
