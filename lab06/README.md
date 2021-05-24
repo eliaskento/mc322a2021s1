@@ -24,3 +24,14 @@ public void InsereComponenteSecundario(Componente componenteSecundario) {
 	componentes[index] = componenteSecundario;
 }
 ~~~
+
+**2** Para cada componente (Herói, buraco, brisa, Wumpus, fedor e ouro) foi associado um valor numério de 0 a 5 de acordo com ordem de prioridade do roteiro do Lab06. Dessa forma, é possível fazer um método de ordenação (no caso foi utilizado do bubble sort) para ordenar o vetor de componentes mencionado acima e assim imprimir sempre o de maior prioridade que se encontra na posição 0. O trecho de código abaixo mostra a classe que representa a brisa como tendo valor numérico 0, ou seja, a de menor prioridade.
+~~~java
+public class Brisa extends Componente {
+	public Brisa(int linha, int coluna) {
+		super(linha, coluna);
+		tipo = 0;
+		tipoChar = 'b';
+	}
+}
+~~~
